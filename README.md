@@ -58,7 +58,7 @@ intern roles at coinbase
 
 ## Supported Companies
 
-Airbnb, Anthropic, Cloudflare, Coinbase, Datadog, Discord, Dropbox, Figma, GitLab, Instacart, Linear, Lyft, Netlify, Notion, Sentry, Stripe, Vercel
+Airbnb, Anthropic, Cloudflare, Coinbase, Datadog, Discord, Dropbox, Figma, GitLab, Instacart, Linear, Lyft, Netlify, Notion, RevenueCat, Sentry, Stripe, Vercel
 
 **Want to add your company?** [See how](CONTRIBUTING.md)
 

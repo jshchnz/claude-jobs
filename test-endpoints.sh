@@ -48,6 +48,10 @@ test_endpoint() {
         # Looks like JSON array or has jobs key but couldn't find typical fields
         echo -e "${YELLOW}OK${NC} (structure unclear)"
         PASSED=$((PASSED + 1))
+    elif echo "$body" | grep -qiE '<title>.*jobs|careers.*</title>|class=".*job|posting|position.*"'; then
+        # HTML job board page
+        echo -e "${GREEN}OK${NC} (HTML job board)"
+        PASSED=$((PASSED + 1))
     else
         echo -e "${RED}FAILED${NC} (invalid response)"
         FAILED=$((FAILED + 1))
@@ -74,6 +78,7 @@ test_endpoint "linear" "https://api.ashbyhq.com/posting-api/job-board/linear"
 test_endpoint "lyft" "https://boards-api.greenhouse.io/v1/boards/lyft/jobs"
 test_endpoint "netlify" "https://boards-api.greenhouse.io/v1/boards/netlify/jobs"
 test_endpoint "notion" "https://api.ashbyhq.com/posting-api/job-board/notion"
+test_endpoint "revenuecat" "https://jobs.ashbyhq.com/revenuecat"
 test_endpoint "sentry" "https://sentry.io/jobs/list.json"
 test_endpoint "stripe" "https://boards-api.greenhouse.io/v1/boards/stripe/jobs"
 test_endpoint "vercel" "https://boards-api.greenhouse.io/v1/boards/vercel/jobs"

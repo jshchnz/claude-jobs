@@ -6,11 +6,12 @@ Add your company in 5 minutes!
 
 ### 1. Find your public job API endpoint
 
-Your endpoint must be publicly accessible and return JSON. Common patterns:
+Your endpoint must be publicly accessible. JSON APIs are preferred, but HTML job board pages also work. Common patterns:
 
 - **Greenhouse**: `https://boards-api.greenhouse.io/v1/boards/yourcompany/jobs`
 - **Lever**: `https://api.lever.co/v0/postings/yourcompany`
 - **Ashby**: `https://api.ashbyhq.com/posting-api/job-board/yourcompany`
+- **Ashby (HTML)**: `https://jobs.ashbyhq.com/yourcompany` (if API doesn't return all jobs)
 - **Custom**: `https://yourcompany.com/api/jobs` or `https://yourcompany.com/jobs.json`
 
 ### 2. Test your endpoint
