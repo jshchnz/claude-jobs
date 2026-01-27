@@ -232,6 +232,25 @@ allowed-tools: WebFetch
 | yext | https://boards-api.greenhouse.io/v1/boards/yext/jobs |
 | yotpo | https://boards-api.greenhouse.io/v1/boards/yotpo/jobs |
 | zocdoc | https://boards-api.greenhouse.io/v1/boards/zocdoc/jobs |
+| anyscale | https://jobs.ashbyhq.com/anyscale |
+| applovin | https://boards-api.greenhouse.io/v1/boards/applovin/jobs?content=true |
+| calendly | https://boards-api.greenhouse.io/v1/boards/calendly/jobs?content=true |
+| circleci | https://boards-api.greenhouse.io/v1/boards/circleci/jobs?content=true |
+| dollarshaveclub | https://boards-api.greenhouse.io/v1/boards/dollarshaveclub/jobs?content=true |
+| fetch | https://boards-api.greenhouse.io/v1/boards/fetch/jobs?content=true |
+| labelbox | https://boards-api.greenhouse.io/v1/boards/labelbox/jobs?content=true |
+| launchdarkly | https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs?content=true |
+| liveperson | https://boards-api.greenhouse.io/v1/boards/liveperson/jobs?content=true |
+| lucidmotors | https://boards-api.greenhouse.io/v1/boards/lucidmotors/jobs?content=true |
+| moveworks | https://boards-api.greenhouse.io/v1/boards/moveworks/jobs?content=true |
+| nuro | https://boards-api.greenhouse.io/v1/boards/nuro/jobs?content=true |
+| palantir | https://api.lever.co/v0/postings/palantir |
+| pendo | https://boards-api.greenhouse.io/v1/boards/pendo/jobs?content=true |
+| perplexity | https://jobs.ashbyhq.com/perplexity |
+| salesloft | https://boards-api.greenhouse.io/v1/boards/salesloft/jobs?content=true |
+| twilio | https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true |
+| veriff | https://boards-api.greenhouse.io/v1/boards/veriff/jobs?content=true |
+| waymo | https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true |
 
 Add your company: https://github.com/jshchnz/claude-jobs
 
