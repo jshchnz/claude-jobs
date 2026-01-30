@@ -250,6 +250,7 @@ allowed-tools: WebFetch
 | salesloft | https://boards-api.greenhouse.io/v1/boards/salesloft/jobs?content=true |
 | twilio | https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true |
 | veriff | https://boards-api.greenhouse.io/v1/boards/veriff/jobs?content=true |
+| wave | https://boards-api.greenhouse.io/v1/boards/wavemm1/jobs?content=true |
 | waymo | https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true |
 
 Add your company: https://github.com/jshchnz/claude-jobs
