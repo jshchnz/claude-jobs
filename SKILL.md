@@ -248,6 +248,7 @@ allowed-tools: WebFetch
 | pendo | https://boards-api.greenhouse.io/v1/boards/pendo/jobs?content=true |
 | perplexity | https://jobs.ashbyhq.com/perplexity |
 | salesloft | https://boards-api.greenhouse.io/v1/boards/salesloft/jobs?content=true |
+| sendcloud | https://jobs.sendcloud.com/vacancies |
 | twilio | https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true |
 | veriff | https://boards-api.greenhouse.io/v1/boards/veriff/jobs?content=true |
 | wave | https://boards-api.greenhouse.io/v1/boards/wavemm1/jobs?content=true |
