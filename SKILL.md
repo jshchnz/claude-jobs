@@ -253,6 +253,7 @@ allowed-tools: WebFetch
 | veriff | https://boards-api.greenhouse.io/v1/boards/veriff/jobs?content=true |
 | wave | https://boards-api.greenhouse.io/v1/boards/wavemm1/jobs?content=true |
 | waymo | https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true |
+| creditgenie | https://api.ashbyhq.com/posting-api/job-board/creditgenie |
 
 Add your company: https://github.com/jshchnz/claude-jobs
 
